@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Composants">
+      <UniqueIdentifier>{9e824f64-254f-4c9d-a90b-49c7042558af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Services">
+      <UniqueIdentifier>{e3a24bce-f717-4df8-9f51-4658f56d6338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Composants">
+      <UniqueIdentifier>{1cf341d0-597a-48b5-81bb-cb05afcfbace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Services">
+      <UniqueIdentifier>{443f91e9-c5c0-4cf6-b772-6607596c0721}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="catalogue.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUserControl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="A_Staff.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="A_Rh.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Connexionh.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Adresse.h">
+      <Filter>Fichiers d%27en-tête\Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Client.h">
+      <Filter>Fichiers d%27en-tête\Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Command.h">
+      <Filter>Fichiers d%27en-tête\Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Detail.h">
+      <Filter>Fichiers d%27en-tête\Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Discount.h">
+      <Filter>Fichiers d%27en-tête\Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="C_gestion.h">
+      <Filter>Fichiers d%27en-tête\Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Item.h">
+      <Filter>Fichiers d%27en-tête\Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="C_MonthlyPayment.h">
+      <Filter>Fichiers d%27en-tête\Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Payment.h">
+      <Filter>Fichiers d%27en-tête\Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Person.h">
+      <Filter>Fichiers d%27en-tête\Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Staff.h">
+      <Filter>Fichiers d%27en-tête\Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="S_Client.h">
+      <Filter>Fichiers d%27en-tête\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="S_Command.h">
+      <Filter>Fichiers d%27en-tête\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="S_Detail.h">
+      <Filter>Fichiers d%27en-tête\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="S_Global.h">
+      <Filter>Fichiers d%27en-tête\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="S_Item.h">
+      <Filter>Fichiers d%27en-tête\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="S_Staff.h">
+      <Filter>Fichiers d%27en-tête\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="S_Adresse.h">
+      <Filter>Fichiers d%27en-tête\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Color.h">
+      <Filter>Fichiers d%27en-tête\Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="AccederAuxDonnées.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Global.h">
+      <Filter>Fichiers d%27en-tête\Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="S_Person.h">
+      <Filter>Fichiers d%27en-tête\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="S_Discount.h">
+      <Filter>Fichiers d%27en-tête\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="C_AccesAuxDonnées.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="catalogue.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AccederAuxDonnées.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="A_Staff.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="A_Rh.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Adresse.cpp">
+      <Filter>Fichiers sources\Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Client.cpp">
+      <Filter>Fichiers sources\Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Command.cpp">
+      <Filter>Fichiers sources\Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Detail.cpp">
+      <Filter>Fichiers sources\Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Discount.cpp">
+      <Filter>Fichiers sources\Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="C_gestion.cpp">
+      <Filter>Fichiers sources\Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Item.cpp">
+      <Filter>Fichiers sources\Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="C_MonthlyPayment.cpp">
+      <Filter>Fichiers sources\Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Payment.cpp">
+      <Filter>Fichiers sources\Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Person.cpp">
+      <Filter>Fichiers sources\Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Staff.cpp">
+      <Filter>Fichiers sources\Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="S_Client.cpp">
+      <Filter>Fichiers sources\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="S_Command.cpp">
+      <Filter>Fichiers sources\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="S_Detail.cpp">
+      <Filter>Fichiers sources\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="S_Global.cpp">
+      <Filter>Fichiers sources\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="S_Item.cpp">
+      <Filter>Fichiers sources\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="S_Staff.cpp">
+      <Filter>Fichiers sources\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="S_Adresse.cpp">
+      <Filter>Fichiers sources\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Color.cpp">
+      <Filter>Fichiers sources\Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="S_Discount.cpp">
+      <Filter>Fichiers sources\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="S_Person.cpp">
+      <Filter>Fichiers sources\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Global.cpp">
+      <Filter>Fichiers sources\Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="C_AccesAuxDonnées.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="Tables\Exode_Struct.sql">
+      <Filter>Fichiers sources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
